@@ -1,0 +1,21 @@
+.hero-container {
+     width: 100%;
+     margin-bottom: 5em;
+}
+
+.hero-container > .hero-wrapper {
+     height: 37.5em;
+     background: transparent url("../../media/hero-bg_pc.png") 0% 0% no-repeat padding-box;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.hero-wrapper > h1 {
+     font-size: 7.5em;
+}
+
+.hero-wrapper > h3 {
+     font-size: 3em;
+}

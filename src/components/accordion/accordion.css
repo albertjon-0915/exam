@@ -1,0 +1,74 @@
+.accordion-container {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 5em;
+     color: var(--textColor);
+}
+
+.accordion-container > .accordion-wrapper {
+     width: 78em;
+}
+
+.accordion-wrapper > .accordion-item {
+     border: 1px solid var(--borderColor);
+     padding: 1em;
+     margin: 1em 0;
+}
+
+.accordion-wrapper > h2 {
+     font: normal normal bold 3rem/2.75rem Roboto;
+     margin-bottom: 0.5em;
+}
+
+.accordion-item > .accordion-header {
+     display: flex;
+     justify-content: space-between;
+     padding: 1em 0;
+     cursor: pointer;
+}
+
+.accordion-item > .accordion-header > h4 {
+     font: normal normal bold 1.25rem/1.625rem Roboto;
+}
+
+.accordion-item > .accordion-header > div {
+     border: none;
+     background: none;
+     margin-right: 3em;
+     cursor: pointer;
+     transition: 0.5s ease-in-out;
+}
+
+.accordion-item > .accordion-header > div > img {
+     transition: 0.5s ease-in-out;
+}
+
+.accordion-item > p {
+     font: normal normal normal clamp(0.9rem, 1.25vw, 1.25rem) / 1.625rem Roboto;
+     transition: 0.5s ease-in-out;
+     overflow: hidden;
+}
+
+/* //////////// change base accordion state ////////// */
+
+.colorChange {
+     color: #707070;
+}
+
+.rotate {
+     transform: rotate(180deg);
+}
+
+.invisible {
+     padding-top: 0em;
+     border-top: 1px solid transparent;
+     max-height: 0px;
+}
+
+.visible {
+     padding-top: 1.5em;
+     border-top: 1px solid var(--borderColor);
+     max-height: 10em;
+}
