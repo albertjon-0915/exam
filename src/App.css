@@ -2,6 +2,7 @@
 
 :root {
      --borderhighlight: 1px solid red;
+     --backgroundColor: #eeeeee;
      --main-yellow: #fff000;
      --button-red: #e3007f;
      --borderColor: #aaaaaa;

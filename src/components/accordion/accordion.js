@@ -1,6 +1,6 @@
 import React from "react";
 import "./accordion.css";
-import ReusableAccordion from "../resusables/reusableAccordion";
+import ReusableAccordion from "./reusableAccordion";
 import accordionData from "./accordionData";
 
 function accordion() {

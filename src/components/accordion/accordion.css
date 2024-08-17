@@ -4,6 +4,7 @@
      justify-content: center;
      align-items: center;
      margin-top: 5em;
+     padding: 1em;
      color: var(--textColor);
 }
 
@@ -51,7 +52,7 @@
      overflow: hidden;
 }
 
-/* //////////// change base accordion state ////////// */
+/* //////////// changes base on accordion state ////////// */
 
 .colorChange {
      color: #707070;
@@ -70,5 +71,5 @@
 .visible {
      padding-top: 1.5em;
      border-top: 1px solid var(--borderColor);
-     max-height: 10em;
+     max-height: 13em;
 }

@@ -6,58 +6,67 @@ function form() {
           <div className="form-container">
                <div className="form-wrapper">
                     <h2>Form</h2>
-                    <form action="">
-                         <table>
-                              <tbody>
-                                   <tr className="table-row">
-                                        <td>Name</td>
-                                        <td>
-                                             <input type="text" />
-                                        </td>
-                                   </tr>
-                                   <tr className="table-row">
-                                        <td>Company</td>
-                                        <td>
-                                             <input type="text" />
-                                        </td>
-                                   </tr>
-                                   <tr className="table-row">
-                                        <td>E-mail</td>
-                                        <td>
-                                             <input type="text" />
-                                        </td>
-                                   </tr>
-                                   <tr className="table-row">
-                                        <td>Select Field</td>
-                                        <td>
-                                             <select name="" id="">
-                                                  <option value="">a</option>
-                                                  <option value="">b</option>
-                                                  <option value="">c</option>
-                                             </select>
-                                        </td>
-                                   </tr>
-                                   <tr className="table-row">
-                                        <td>Radio Field</td>
-                                        <td>
-                                             <input type="radio" />
-                                             <input type="radio" />
-                                             <input type="radio" />
-                                             <input type="radio" />
-                                        </td>
-                                   </tr>
-                                   <tr className="table-row">
-                                        <td>Checkbox Field</td>
-                                        <td>
-                                             <input type="checkbox" />
-                                             <input type="checkbox" />
-                                             <input type="checkbox" />
-                                             <input type="checkbox" />
-                                        </td>
-                                   </tr>
-                              </tbody>
-                         </table>
-                         <button type="submit">Submit</button>
+                    <form onSubmit={(e) => e.preventDefault()}>
+                         <ul>
+                              <li className="item1">
+                                   <div className="input-field-name">Name</div>
+                                   <input type="text" />
+                              </li>
+                              <li className="item2">
+                                   <div className="input-field-name">Company</div>
+                                   <input type="text" />
+                              </li>
+                              <li className="item3">
+                                   <div className="input-field-name">E-mail</div>
+                                   <input type="text" />
+                              </li>
+                              <li className="item4">
+                                   <div className="input-field-name">Select Field</div>
+                                   <select name="" id="">
+                                        <option value="">a</option>
+                                        <option value="">b</option>
+                                        <option value="">c</option>
+                                   </select>
+                              </li>
+                              <li className="item5">
+                                   <div className="input-field-name">Radio Field</div>
+                                   <div className="input-field-group">
+                                        <label>
+                                             <input type="radio" name="radioGroup" /> Selection 1
+                                        </label>
+                                        <label>
+                                             <input type="radio" name="radioGroup" /> Selection 2
+                                        </label>
+                                        <label>
+                                             <input type="radio" name="radioGroup" /> Selection 3
+                                        </label>
+                                        <label>
+                                             <input type="radio" name="radioGroup" /> Selection 4
+                                        </label>
+                                   </div>
+                              </li>
+                              <li className="item6">
+                                   <div className="input-field-name">Checkbox Field</div>
+                                   <div className="input-field-group">
+                                        <label>
+                                             <input type="checkbox" /> Selection 1
+                                        </label>
+                                        <label>
+                                             <input type="checkbox" /> Selection 2
+                                        </label>
+                                        <label>
+                                             <input type="checkbox" /> Selection 3
+                                        </label>
+                                        <label>
+                                             <input type="checkbox" /> Selection 4
+                                        </label>
+                                   </div>
+                              </li>
+                         </ul>
+
+                         <div className="btn-wrapper">
+                              <button type="submit">Submit</button>
+                         </div>
                     </form>
                </div>
           </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./cards.css";
 import cardContent from "./cardData";
-import ReusableCard from "../resusables/reusableCard";
+import ReusableCard from "./reusableCard";
 
 function cards() {
      return (

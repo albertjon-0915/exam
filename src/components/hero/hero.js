@@ -1,6 +1,5 @@
 import React from "react";
 import "./hero.css";
-import ReusableHero from "../resusables/reusableHero";
 
 function Hero() {
      const heroContent = {
@@ -8,7 +7,14 @@ function Hero() {
           subtitle: "Sub Hero Text Sentence",
      };
 
-     return <ReusableHero title={heroContent.title} subtitle={heroContent.subtitle} />;
+     return (
+          <div className="hero-container">
+               <div className="hero-wrapper">
+                    <h1>{heroContent.title}</h1>
+                    <h3>{heroContent.subtitle}</h3>
+               </div>
+          </div>
+     );
 }
 
 export default Hero;

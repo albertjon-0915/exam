@@ -1,6 +1,6 @@
 import React from "react";
 import "./section.css";
-import ReusableSection from "../resusables/reusableSection";
+import ReusableSection from "./reusableSection";
 import sectionData from "./sectionData";
 
 function Section() {
