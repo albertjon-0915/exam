@@ -35,7 +35,7 @@
      font-size: 1.25em;
      width: 11em;
      height: 3em;
-     background: var(--button-red) 0% 0% no-repeat padding-box;
+     background: var(--buttonRed) 0% 0% no-repeat padding-box;
      color: #ffffff;
 }
 

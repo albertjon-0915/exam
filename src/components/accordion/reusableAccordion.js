@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function ReusableAccordion({ title, description }) {
      const [isOpen, setIsOpen] = useState(false);
-     const arrow = require("../../media/accordionimg/accordion-arrow-pc.png");
+     const arrow = require("../../assets/accordionimg/accordion-arrow-pc.png");
 
      const accordionVisible = (e) => {
           setIsOpen(!isOpen);

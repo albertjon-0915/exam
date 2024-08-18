@@ -13,6 +13,7 @@ function App() {
           <div>
                <Header />
                <Hero />
+               <Carousel />
                <Cards />
                <Section />
                <Accordion />

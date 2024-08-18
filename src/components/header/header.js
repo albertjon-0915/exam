@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../../media/logo.svg";
+import logo from "../../assets/logo.svg";
 import "./header.css";
 
 function Header() {
@@ -26,13 +26,13 @@ function Header() {
                <div className="header-wrapper">
                     <div className="nav-item">
                          <img src={logo} alt="logo" />
-                         <a href="" onClick={(e) => menuVisible(e)}>
+                         <a href="" className={isOpen && isResized ? "active" : ""} onClick={(e) => menuVisible(e)}>
                               <span className="bar1"></span>
                               <span className="bar2"></span>
                               <span className="bar3"></span>
                          </a>
                     </div>
-                    <div className="nav-item" id={`nav-options-${isOpen && isResized ? "invisible" : "visible"}`}>
+                    <div className="nav-item" id={`nav-options-${isOpen && isResized ? "visible" : "invisible"}`}>
                          <ul>
                               <li className="item1">
                                    <a href="">ABOUT</a>

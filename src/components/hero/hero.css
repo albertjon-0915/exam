@@ -5,7 +5,7 @@
 
 .hero-container > .hero-wrapper {
      height: 37.5em;
-     background: transparent url("../../media/heroimg/hero-bg_pc.png") 0% 0% no-repeat padding-box;
+     background: transparent url("../../assets/heroimg/hero-bg_pc.png") 0% 0% no-repeat padding-box;
      background-size: cover;
      background-position: center;
      display: flex;
@@ -24,7 +24,7 @@
 
 @media (max-width: 576px) {
      .hero-container > .hero-wrapper {
-          background: transparent url("../../media/heroimg/hero-bg_sp.png") 0% 0% no-repeat padding-box;
+          background: transparent url("../../assets/heroimg/hero-bg_sp.png") 0% 0% no-repeat padding-box;
           background-size: cover;
      }
 }

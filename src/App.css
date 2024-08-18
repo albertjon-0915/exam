@@ -3,10 +3,10 @@
 :root {
      --borderhighlight: 1px solid red;
      --backgroundColor: #eeeeee;
-     --main-yellow: #fff000;
-     --button-red: #e3007f;
+     --mainYellow: #fff000;
+     --buttonRed: #e3007f;
      --borderColor: #aaaaaa;
-     --text-color: #333333;
+     --textColor: #333333;
 }
 
 * {
