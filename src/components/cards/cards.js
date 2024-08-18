@@ -7,7 +7,7 @@ function cards() {
      return (
           <div className="section-container">
                <div className="card-container">
-                    <h2>Section Title SP</h2>
+                    <h2>Card</h2>
                     <div className="card-wrapper">
                          <h3>4 Column card on PC</h3>
                          <div className="card-section1">

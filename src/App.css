@@ -22,5 +22,5 @@ footer {
      justify-content: center;
      height: 4em;
      margin-top: 7.5em;
-     background: var(--main-yellow) 0% 0% no-repeat padding-box;
+     background: var(--mainYellow) 0% 0% no-repeat padding-box;
 }
