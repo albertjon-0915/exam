@@ -26,7 +26,7 @@ function Header() {
                <div className="header-wrapper">
                     <div className="nav-item">
                          <img src={logo} alt="logo" />
-                         <a href="" className={isOpen && isResized ? "active" : ""} onClick={(e) => menuVisible(e)}>
+                         <a href="" className={isOpen && isResized ? "active" : ""} onClick={menuVisible}>
                               <span className="bar1"></span>
                               <span className="bar2"></span>
                               <span className="bar3"></span>
